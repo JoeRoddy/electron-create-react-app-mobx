@@ -4,7 +4,7 @@ import { HashRouter as Router, Route, hashHistory } from "react-router-dom";
 import * as mobx from "mobx";
 
 import Routes from "./Routes";
-import "./App.css";
+import "./App.scss";
 
 const rootElement = document.getElementById("root");
 mobx.useStrict(true);
